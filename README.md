@@ -10,7 +10,7 @@
 
 ```yml
 - name: Run semantic versioning
-  uses: PacificPromise/semantic-versioning-action@main
+  uses: tuanngocptn/semantic-versioning-action@main
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   with:
@@ -36,7 +36,7 @@
 - Create a sh file with below content `run_sample.sh`.
 
 ```sh
-source /dev/stdin <<<"$(curl -s https://raw.githubusercontent.com/PacificPromise/semantic-versioning-action/main/index.sh)" && get_stage_prompt
+source /dev/stdin <<<"$(curl -s https://raw.githubusercontent.com/tuanngocptn/semantic-versioning-action/main/index.sh)" && get_stage_prompt
 
 ```
 

@@ -42,7 +42,7 @@ jobs:
             ${{ inputs.action_name == 'Increment product environment' }} => increment_tag prd
 
       - name: Increment
-        uses: PacificPromise/semantic-versioning-action@main
+        uses: tuanngocptn/semantic-versioning-action@main
         if: ${{ steps.switch-case.outputs.value != 'none' }}
         with:
           script: ${{ steps.switch-case.outputs.value }}
