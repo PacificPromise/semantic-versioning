@@ -69,24 +69,4 @@ To github.com:tuanngocptn/semantic-versioning-action.git
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
 
-## Contributors
-
-Thanks go to these wonderful people:
-
-<!-- readme: collaborators,contributors -start -->
-<table>
-	<tbody>
-		<tr>
-            <td align="center">
-                <a href="https://github.com/tuanngocptn">
-                    <img src="https://avatars.githubusercontent.com/u/22292704?v=4" width="100;" alt="tuanngocptn"/>
-                    <br />
-                    <sub><b>Nick - Ngoc Pham</b></sub>
-                </a>
-            </td>
-		</tr>
-	<tbody>
-</table>
-<!-- readme: collaborators,contributors -end -->
-
 ### Thanks for using Semantic Versioning Action
