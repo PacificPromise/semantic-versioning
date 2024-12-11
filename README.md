@@ -45,9 +45,9 @@ bash version.sh
 You'll see an interactive menu:
 ```
 Action:
-1) Development build  5) Patch version (1.0.x)
-2) Staging build      6) Minor version (1.x.0)
-3) UAT build          7) Major version (x.0.0)
+1) Development build  5) Patch version 1.0.x (e.g. 1.0.1 -> 1.0.2)
+2) Staging build      6) Minor version 1.x.0 (e.g. 1.0.1 -> 1.1.0)
+3) UAT build          7) Major version x.0.0 (e.g. 1.0.1 -> 2.0.0)
 4) Production build   8) Quit
 ```
 

@@ -1,7 +1,7 @@
 get_stage_prompt() {
   title="Action:"
   prompt="Choose:"
-  options=("Increment development environment" "Increment staging environment" "Increment UAT environment" "Increment product environment" "Increment patch version (1.0.xx)" "Increment minor version (1.xx.0)" "Increment major version (xx.0.0)")
+  options=("Increment development environment" "Increment staging environment" "Increment UAT environment" "Increment product environment" "Increment patch version 1.0.xx (e.g. 1.0.1 -> 1.0.2)" "Increment minor version 1.xx.0 (e.g. 1.0.1 -> 1.1.0)" "Increment major version xx.0.0 (e.g. 1.0.1 -> 2.0.0)")
 
   echo "$title"
   PS3="$prompt "
